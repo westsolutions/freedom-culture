@@ -1,0 +1,23 @@
+.content-icons{
+    padding:70px 70px;
+}
+
+.icon-block{
+    border:1px solid green;
+    padding-bottom: 25px;
+    .img-block{
+        display: flex;
+        justify-content: center;
+        img{
+            max-width:179px;
+        }
+    }
+    h4{
+        color: $primary-color;
+        font-family: $font-family-primary;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}

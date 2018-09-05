@@ -1,21 +1,20 @@
 @import "vars";
-@import "mixins";
 
 // Vendors
 @import "~bootstrap/scss/bootstrap";
-
 @import "base";
 @import "layout";
 @import "blocks/blocks";
+@import "header.scss";
+@import "hero.scss";
+@import "content-block.scss";
+@import "content-icons.scss";
+@import "content-items.scss";
+@import "ask-network-content.scss";
+@import "footer.scss";
 
-nav {
-  display: block;
 
-  a {
-    display: inline-block;
-    padding: 1em 2em;
-    &.active {
-      color: teal;
-    }
-  }
+body{
+    background-color: #fff;
 }
+

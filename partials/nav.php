@@ -1,5 +1,43 @@
-<h1><a href="/">Barebones</a></h1>
-<nav>
-  <a href="/about"<?= get_page() == "about" ? ' class="active"' : null ?>>About</a>
-  <a href="/about/me"<?= get_page() == "about/me" ? ' class="active"' : null ?>>Me</a>
-</nav>
+
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <ul class="nav header-menu overlay-content d-flex flex-column">
+        <li>
+            <a href="#">Manifesto</a>
+        </li>
+        <li>
+            <a href="#">Media</a>
+        </li>
+        <li>
+            <a href="#">Influencers</a>
+        </li>
+        <li>
+            <a href="#">Education</a>
+        </li>
+        <li>
+            <a href="#">Incubator</a>
+        </li>
+        <li>
+            <a href="#">Services</a>
+        </li>
+        <li>
+            <a href="#">Mastermind</a>
+        </li>
+        <li>
+            <a href="#">Whitepaper</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+    </ul>
+</div>
+
+<section class="header fixed-top">
+    <div class="container">
+        <div class="d-flex justify-content-end">
+            <div class="menu-button" onclick="openNav()">
+                <img src="<?= asset('images/menu-icon.svg') ?>" alt="">
+            </div>
+        </div>
+    </div>
+</section>

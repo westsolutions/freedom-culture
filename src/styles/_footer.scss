@@ -1,0 +1,33 @@
+footer{
+    background-color: $secondary-color;
+    padding:80px 0 20px;
+    margin-top:-100px;
+}
+
+.footer-text-left,
+.footer-text-right{
+    color: #ffffff;
+    font-family: $font-family-primary;
+    font-size: $font-size-small;
+}
+
+.footer-text-left{
+    font-weight: 700;
+    a{
+        font-weight: 400;
+        color:#ffffff;
+        text-decoration: none;
+        border-left: 1px solid #0e1121;
+        padding-left: 5px;
+    }
+}
+
+
+.footer-text-right{
+    font-weight: 400;
+    text-align: right;
+    span{
+        border-left: 1px solid #0e1121;
+        padding-left: 5px;
+    }
+}

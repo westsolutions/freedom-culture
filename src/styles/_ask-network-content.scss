@@ -1,0 +1,59 @@
+.ask-network-content{
+    background-color: $primary-color;
+    padding-top:65px;
+}
+
+.ask-title{
+    small,
+    h3{
+        color:#ffffff;
+        font-family: $font-family-primary;
+    }
+    small{
+        font-size:35px !important;
+        font-weight:400;
+    }
+    h3{
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+
+
+
+
+.social-network-content{
+    padding-top:28px;
+    h3{
+        color: $font-color;
+        font-family: $font-family-primary;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase; 
+    }
+    .social-network-block{
+        display: block;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        border: 1px solid $secondary-color;
+        i{
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 1.32px;
+            line-height: 32px;
+            color:#fff;
+        }
+    } 
+}
+
+.logo-button{
+    padding-top:50px;
+    img{
+        max-width:216px; 
+    }
+}

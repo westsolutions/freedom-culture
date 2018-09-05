@@ -1,0 +1,55 @@
+.header{
+    padding-top:30px;
+    cursor: pointer;
+}
+
+
+.overlay {
+    height:0;
+    width: 100%;
+    position: fixed;
+    z-index: 1070;
+    top: 0;
+    left: 0;
+    background-color: rgba(220, 170, 38, 0.96);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.overlay a {
+    color: #ffffff;
+    font-family: $font-family-primary;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    text-decoration: none;
+    padding:8px 0;
+    display: block;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 0;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
