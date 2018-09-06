@@ -1,6 +1,6 @@
 <?php partial('head') ?>
 
-<body>
+<body class="position-relative">
     <?php partial('nav') ?>
     <section class="hero" style="background-image: url('<?= asset('images/hero-bg.png') ?>')">
         <div class="container">
@@ -100,81 +100,77 @@
     <section class="content-items">
         <div class="container-fluid p-0">
             <div class="row no-gutters">
-                <div class="col-md-6 p-0">
-                    <div class="item-text">
-                        <div class="text-content">
-                            <h2>We Create Media</h2>
-                            <div class="text-block">
+                <div class="col-lg-6 order-lg-1 order-2">
+                    <div class="item-text bg-block-primary">
+                        <div class="text-left-block">
+                            <h2><span>We</span> Create Media</h2>
+                            <div class="text-content">
                                 <p>
                                     We support creatives to make engaging content that changes the narrative on social media to being constructive and thought-provoking.
                                 </p>
                             </div>
-                            <a href="#" class="btn">
+                            <a href="#" class="btn btn-outline-primary">
                                 Hire our crew
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 p-0">
-                    <div class="item-img">
-                        <img src="<?= asset('images/media.png') ?>" alt="" width="100%">
+                <div class="col-lg-6 order-lg-2 order-1">
+                    <div class="item-img" style="background-image:url(<?= asset('images/media.png') ?>)">
                     </div>
                 </div>
-                <div class="col-md-6 p-0">
-                    <div class="item-img">
-                        <img src="<?= asset('images/community.png') ?>" alt="" width="100%">
+                <div class="col-lg-6 order-lg-3 order-3">
+                    <div class="item-img" style="background-image:url(<?= asset('images/community.png') ?>)">
                     </div>
                 </div>
-                <div class="col-md-6 p-0">
-                    <div class="item-text">
-                        <div class="text-content">
-                            <h2>We Unite Influencers</h2>
-                            <div class="text-block">
+                <div class="col-lg-6 order-lg-4 order-4">
+                    <div class="item-text bg-block-secondary">
+                        <div class="text-right-block">
+                            <h2><span>We</span> Unite Influencers</h2>
+                            <div class="text-content">
                                 <p>
                                     We realize the dynamics of the media landscape have shifted the power from one which people are informed and so we assemble powerful networks to change the cultural narrative of our world.
                                 </p>
                             </div>
-                            <a href="#" class="btn">
+                            <a href="#" class="btn btn-outline-secondary">
                                 Join our crew
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 p-0">
-                    <div class="item-text">
-                        <div class="text-content">
-                            <h2>We Empower Educators</h2>
-                            <div class="text-block">
+                <div class="col-lg-6 order-lg-5 order-6">
+                    <div class="item-text bg-block-primary">
+                        <div class="text-left-block">
+                            <h2><span>We</span> Empower Educators</h2>
+                            <div class="text-content">
                                 <p>
-                                    We are committed to spreading wisdomaround decentralized solutions by buildinga powerful mentorship platform availableboth online and off as well as gatherings that promote community, growth and self-reliance
+                                    We are committed to spreading wisdomaround decentralized solutions by buildinga powerful mentorship platform availableboth online and off as well as gatherings that promote community, growth and self-reliance.
                                 </p>
                             </div>
-                            <a href="#" class="btn">
+                            <a href="#" class="btn btn-outline-primary">
                                 Learn More
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 p-0">
-                    <div class="item-img">
-                        <img src="<?= asset('images/teaching.png') ?>" alt="" width="100%">
+                <div class="col-lg-6 order-lg-6 order-5">
+                    <div class="item-img" style="background-image:url(<?= asset('images/teaching.png') ?>)">
                     </div>
                 </div>
-                <div class="col-md-6 p-0">
-                    <div class="item-img">
-                        <img src="<?= asset('images/incubator.png') ?>" alt="" width="100%">
+                <div class="col-lg-6 order-lg-7 order-7">
+                    <div class="item-img bg-right" style="background-image:url(<?= asset('images/incubator.png') ?>)">
                     </div>
                 </div>
-                <div class="col-md-6 p-0">
-                    <div class="item-text">
-                        <div class="text-content">
-                            <h2>We Incubate Ideas</h2>
-                            <div class="text-block">
+                <div class="col-lg-6 order-lg-8 order-8">
+                    <div class="item-text bg-block-secondary">
+                        <div class="text-right-block">
+                            <h2><span>We</span> Incubate Ideas</h2>
+                            <div class="text-content">
                                 <p>
-                                    We fund, mentor and support entrepreneurs who align the ROI of Return on Investment with the other ROI - Ripple of Impact that focuses on decentralized solutions for structuralflourishing
+                                    We fund, mentor and support entrepreneurs who align the ROI of Return on Investment with the other ROI - Ripple of Impact that focuses on decentralized solutions for structuralflourishing.
                                 </p>
                             </div>
-                            <a href="#" class="btn">
+                            <a href="#" class="btn btn-outline-secondary">
                                 Learn more
                             </a>
                         </div>
