@@ -6,6 +6,7 @@
   <title>Freedom</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="stylesheet" href="<?= asset('styles/main.css') ?>">
   

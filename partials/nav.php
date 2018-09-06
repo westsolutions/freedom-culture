@@ -32,7 +32,7 @@
     </ul>
 </div>
 
-<section class="header fixed-top">
+<section class="main-header fixed-top">
     <div class="container">
         <div class="d-flex justify-content-end">
             <div class="menu-button" onclick="openNav()">

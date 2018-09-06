@@ -1,8 +1,7 @@
 .content-icons{
-    padding:70px 70px;
+    padding:70px 0;
     h2{
         text-align: center;
-        font-family: $font-family-primary;
         font-size: 30px;
         font-weight: 700;
     }
@@ -11,7 +10,11 @@
 .icon-block{
     padding-bottom: 25px;
     .img-block{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         padding:27px 0;
         img{
@@ -19,8 +22,6 @@
         }
     }
     h4{
-        color: $primary-color;
-        font-family: $font-family-primary;
         font-size: 15px;
         font-weight: 700;
         text-transform: uppercase;

@@ -51,8 +51,8 @@
         </div>
     </section>
     <section class="content-icons">
-       <h2>Our Core Values</h2>
         <div class="container">
+            <h2>Our Core Values</h2>
             <div class="row">
                 <div class="col-lg-3 col-md-6 p-0">
                     <div class="icon-block">
@@ -184,70 +184,70 @@
         </div>
     </section>
     <section class="ask-network-content">
-        <div class="ask-title text-center">
-            <small>again we ask,</small>
-            <h3>Are you one of us?</h3>
+        <div class="container">
+           <div class="ask-title">
+                <h2 class="text-uppercase">
+                    <small class="text-lowercase">again we ask,</small><br>
+                    Are you one of us?
+                </h2>
+            </div> 
         </div>
-        <div class="social-network-content text-center">
-           <h3>Join the movement</h3>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-5 col-sm-7 col-9">
-                        <div class="row justify-content-around">
-                            <div class="col-auto p-0">
-                                <a href="#" class="social-network-block">
-                                   <i class="fab fa-facebook-f"></i> 
-                                </a>
-                            </div>
-                            <div class="col-auto p-0">
-                                <a href="#" class="social-network-block">
-                                   <i class="fab fa-twitter"></i> 
-                                </a>
-                            </div>
-                            <div class="col-auto p-0">
-                                <a href="#" class="social-network-block">
-                                   <i class="fab fa-instagram"></i> 
-                                </a>
-                            </div>
-                            <div class="col-auto p-0">
-                                <a href="#" class="social-network-block">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                            </div>
-                            <div class="col-auto p-0">
-                                <a href="#" class="social-network-block">
-                                   <i class="fab fa-telegram-plane"></i> 
-                                </a>
-                            </div>
-                            <div class="col-auto p-0">
-                                <a href="#" class="social-network-block">
-                                    <i class="fab fa-medium-m"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+        <div class="container">
+            <div class="social-network-content">
+                <h3>Join the movement</h3>
+                <div class="d-flex justify-content-center">
+                    <ul class="d-flex m-0 p-0">
+                        <li>       
+                            <a href="#" class="social-network-block">
+                                <i class="fab fa-facebook-f"></i> 
+                            </a>
+                        </li>        
+                        <li>       
+                            <a href="#" class="social-network-block">
+                                <i class="fab fa-twitter"></i> 
+                            </a>
+                        <li>
+                            <a href="#" class="social-network-block">
+                                <i class="fab fa-instagram"></i> 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-network-block">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>   
+                            <a href="#" class="social-network-block">
+                                <i class="fab fa-telegram-plane"></i> 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-network-block">
+                                <i class="fab fa-medium-m"></i>
+                            </a>
+                        </li>    
+                    </ul>    
+                </div>
+            </div>
+            <div class="logo-buttom">
+                <div class="d-flex justify-content-center">
+                    <img src="<?= asset('images/logo-botton.png') ?>" alt="" width="100%">
                 </div>
             </div>
         </div>
-        <div class="logo-button">
-            <div class="d-flex justify-content-center">
-                <img src="<?= asset('images/logo-botton.png') ?>" alt="" width="100%">
-            </div>
-            
-        </div>
     </section>
-    <footer>
+    <footer class="main-footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 order-lg-1 order-md-2">
+                <div class="col-lg-6">
                     <div class="footer-text-left text-lg-left text-center">
-                        &copy; 2018 Freedom Culture  
-                        <a href="#">
+                        <strong>&copy; 2018 Freedom Culture</strong>  
+                        <a href="mailto:info@freedomculture.com" class="line-left">
                             info&#64;freedomculture.com
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6 order-lg-2 order-md-1">
+                <div class="col-lg-6">
                    <div class="footer-text-right">
                         <ul class="d-flex justify-content-lg-end justify-content-center m-0 p-0">
                             <li>

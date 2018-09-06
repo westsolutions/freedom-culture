@@ -71,7 +71,7 @@ section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -6324,7 +6324,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6449,7 +6449,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -10483,7 +10483,7 @@ a.text-dark:focus {
   font-weight: 400;
 }
 
-.header {
+.main-header {
   padding-top: 30px;
   cursor: pointer;
 }
@@ -10510,7 +10510,6 @@ a.text-dark:focus {
 
 .overlay a {
   color: #ffffff;
-  font-family: "Montserrat", sans-serif;
   font-size: 25px;
   font-weight: 400;
   line-height: 40px;
@@ -10638,13 +10637,18 @@ a.text-dark:focus {
   background: linear-gradient(172deg, transparent 49%, #790909 50%, #00d4ff 51%);
 }
 
+.content-block {
+  background-image: repeating-linear-gradient(135deg, #0e1121 0px, #0e1121 1.9px, #090b15 2.1px, #090b15 4px);
+  min-height: 500px;
+  color: #fff;
+}
+
 .content-icons {
-  padding: 70px 70px;
+  padding: 70px 0;
 }
 
 .content-icons h2 {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 700;
 }
@@ -10658,8 +10662,8 @@ a.text-dark:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 27px 0;
 }
 
@@ -10668,8 +10672,6 @@ a.text-dark:focus {
 }
 
 .icon-block h4 {
-  color: #0e1121;
-  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
@@ -10679,22 +10681,12 @@ a.text-dark:focus {
 .ask-network-content {
   background-color: #0e1121;
   padding-top: 65px;
+  text-align: center;
 }
 
-.ask-title small,
-.ask-title h3 {
+.ask-title h2 {
   color: #ffffff;
-  font-family: "Montserrat", sans-serif;
-}
-
-.ask-title small {
-  font-size: 35px !important;
-  font-weight: 400;
-}
-
-.ask-title h3 {
   font-size: 40px;
-  text-transform: uppercase;
   font-weight: 700;
   text-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
 }
@@ -10704,11 +10696,15 @@ a.text-dark:focus {
 }
 
 .social-network-content h3 {
-  color: #dcaa26;
-  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
+  color: #ffffff;
+}
+
+.social-network-content li {
+  list-style: none;
+  padding: 0 8px;
 }
 
 .social-network-content .social-network-block {
@@ -10727,58 +10723,58 @@ a.text-dark:focus {
   color: #fff;
 }
 
-.logo-button {
+.social-network-content .social-network-block:hover {
+  background-color: #dcaa26;
+}
+
+.social-network-content .social-network-block:hover i {
+  color: #0e1121;
+}
+
+.logo-buttom {
   padding-top: 50px;
 }
 
-.logo-button img {
+.logo-buttom img {
   max-width: 216px;
 }
 
-footer {
+.main-footer {
   background-color: #dcaa26;
   padding: 80px 0 10px;
   margin-top: -100px;
   color: #ffffff;
-  font-family: "Montserrat", sans-serif;
   font-size: 12px;
 }
 
-@media screen and (max-width: 992px) {
-  footer {
+@media (max-width: 991.98px) {
+  .main-footer {
     padding: 100px 0 10px;
   }
 }
 
-.footer-text-left {
-  font-weight: 700;
-  padding-bottom: 10px;
-}
-
-.footer-text-left a {
-  font-weight: 400;
+.main-footer a {
   color: #ffffff;
   text-decoration: none;
+  padding-left: 2px;
+  display: inline-block;
+  line-height: 12px;
+}
+
+.main-footer a.line-left {
   border-left: 1px solid #0e1121;
-  padding-left: 5px;
 }
 
-.footer-text-right {
-  font-weight: 400;
-  padding-bottom: 10px;
-}
-
-.footer-text-right ul li {
+.main-footer li {
   list-style: none;
 }
 
-.footer-text-right ul li a {
-  text-decoration: none;
-  padding: 0 5px;
-  color: #fff;
+.main-footer li:nth-of-type(1) {
+  padding-right: 3px;
 }
 
-.footer-text-right ul li .line-left {
-  border-left: 1px solid #0e1121;
+.footer-text-left,
+.footer-text-right {
+  padding-bottom: 10px;
 }
 

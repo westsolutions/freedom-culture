@@ -1,15 +1,29 @@
+$primary-color: #0e1121;
+$secondary-color:#dcaa26;
+
+// bootstrap 
 $body-bg: #ffffff;
-$body-color: #0e1121;
-$warning:       #dcaa26;
+$body-color: $primary-color;
+$font-family-base:'Montserrat', sans-serif;
+$warning: $secondary-color;
 $border-radius: 0;
 
 
 
-$font-family-primary:'Montserrat', sans-serif;
+
 
 $font-color:#dcaa26;
 
+
+
 $font-size-small:12px;
 
-$primary-color: #0e1121;
-$secondary-color:#dcaa26;
+
+
+
+
+
+
+
+
+$font-family-primary:'Montserrat', sans-serif;
