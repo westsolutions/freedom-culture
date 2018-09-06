@@ -10483,14 +10483,6 @@ a.text-dark:focus {
   font-weight: 400;
 }
 
-.main-header {
-  padding-top: 30px;
-  cursor: pointer;
-  top: 0;
-  z-index: 3;
-  width: 100%;
-}
-
 .overlay {
   height: 0;
   width: 100%;
@@ -10500,49 +10492,34 @@ a.text-dark:focus {
   left: 0;
   background-color: rgba(220, 170, 38, 0.96);
   overflow-x: hidden;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .overlay-content {
-  position: relative;
-  top: 100px;
-  width: 100%;
   text-align: center;
 }
 
-.overlay a {
+.overlay-content li {
+  list-style: none;
+}
+
+.overlay-content li a {
   color: #ffffff;
   font-size: 25px;
-  font-weight: 400;
   line-height: 40px;
   text-decoration: none;
-  padding: 8px 0;
   display: block;
 }
 
-.overlay a:hover,
-.overlay a:focus {
-  color: #f1f1f1;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 0;
-  right: 45px;
+.overlay .btn-close {
+  margin-top: 22px;
+  right: 12px;
   font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px;
-  }
-
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  line-height: 40px;
 }
 
 .hero {
@@ -10641,8 +10618,6 @@ a.text-dark:focus {
 }
 
 .content-block {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(14, 17, 33, 0)), to(#0e1121));
-  background-image: linear-gradient(to right, rgba(14, 17, 33, 0) 0%, #0e1121 100%);
   min-height: 500px;
   color: #fff;
 }
@@ -10693,26 +10668,55 @@ a.text-dark:focus {
   min-height: 463px;
 }
 
-.bg-block-primary {
-  background-color: #0e1121;
+@media screen and (max-width: 568px) {
+  .content-items .item-img,
+  .content-items .item-text {
+    min-height: 250px;
+  }
 }
 
 .bg-block-secondary {
   background-color: #dcaa26;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: right;
+}
+
+@media (max-width: 991.98px) {
+  .bg-block-secondary {
+    text-align: left;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.bg-block-primary {
+  background-image: repeating-linear-gradient(135deg, #14182f -0.1%, #14182f 0.01%, #0e1121 0.2%, #0e1121 1.1%);
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media (max-width: 991.98px) {
+  .bg-block-primary {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .item-text {
+  padding: 15px;
+  color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
 }
 
 .item-text h2 {
@@ -10727,7 +10731,14 @@ a.text-dark:focus {
 }
 
 .item-text .text-left-block {
-  padding: 0 50px 0 80px;
+  max-width: 600px;
+  padding-right: 35px;
+}
+
+@media (max-width: 991.98px) {
+  .item-text .text-left-block {
+    padding-right: 0 !important;
+  }
 }
 
 .item-text .text-left-block h2 {
@@ -10735,8 +10746,14 @@ a.text-dark:focus {
 }
 
 .item-text .text-right-block {
-  padding: 0 80px 0 50px;
-  text-align: right;
+  max-width: 600px;
+  padding-left: 35px;
+}
+
+@media (max-width: 991.98px) {
+  .item-text .text-right-block {
+    padding-left: 0 !important;
+  }
 }
 
 .item-text .text-right-block h2 {
@@ -10746,7 +10763,6 @@ a.text-dark:focus {
 .item-text .btn {
   font-size: 15px;
   text-transform: uppercase;
-  margin-top: 8px;
 }
 
 .item-text .btn:hover {
@@ -10780,7 +10796,7 @@ a.text-dark:focus {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #dcaa26;
 }
 
 .social-network-content li {
@@ -10837,13 +10853,18 @@ a.text-dark:focus {
 .main-footer a {
   color: #ffffff;
   text-decoration: none;
-  padding-left: 2px;
+  padding-left: 5px;
   display: inline-block;
   line-height: 12px;
 }
 
 .main-footer a.line-left {
   border-left: 1px solid #0e1121;
+  margin-left: 5px;
+}
+
+.main-footer a:hover {
+  color: #0e1121;
 }
 
 .main-footer li {
@@ -10857,5 +10878,16 @@ a.text-dark:focus {
 .footer-text-left,
 .footer-text-right {
   padding-bottom: 10px;
+}
+
+@media screen and (max-width: 349px) {
+  .footer-text-left a {
+    margin-top: 7px;
+  }
+
+  .footer-text-left a.line-left {
+    border-left: none;
+    margin-left: 0;
+  }
 }
 

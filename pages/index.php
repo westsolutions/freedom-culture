@@ -1,9 +1,14 @@
 <?php partial('head') ?>
 
-<body class="position-relative">
+<body>
     <?php partial('nav') ?>
     <section class="hero" style="background-image: url('<?= asset('images/hero-bg.png') ?>')">
         <div class="container">
+            <div class="d-flex justify-content-end">
+                <div class="menu-button" onclick="openNav()">
+                    <img src="<?= asset('images/menu-icon.svg') ?>" alt="">
+                </div>
+            </div>
             <div class="d-flex justify-content-center">
                 <a class="logo-img" href="/">
                     <img src="<?= asset('images/logo.png') ?>" alt="">
@@ -123,7 +128,7 @@
                     <div class="item-img" style="background-image:url(<?= asset('images/community.png') ?>)">
                     </div>
                 </div>
-                <div class="col-lg-6 order-lg-4 order-4">
+                <div class="col-lg-6 order-lg-4 order-4 d-flex">
                     <div class="item-text bg-block-secondary">
                         <div class="text-right-block">
                             <h2><span>We</span> Unite Influencers</h2>
