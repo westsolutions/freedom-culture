@@ -60,7 +60,7 @@
                             <img src="<?= asset('images/structural-flourishing.svg') ?>" alt="" width="100%">
                         </div>
                         <h4>
-                            Structural Flourishing
+                            Structural<br>Flourishing
                         </h4>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                             <img src="<?= asset('images/decentralized-power.svg') ?>" alt="" width="100%">
                         </div>
                         <h4>
-                            Decentralized Power
+                            Decentralized<br>Power
                         </h4>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                             <img src="<?= asset('images/tribe-and-community.svg') ?>" alt="" width="100%">
                         </div>
                         <h4>
-                            Tribe and Community
+                            Tribe and<br>Community
                         </h4>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                             <img src="<?= asset('images/self-reliance.svg') ?>" alt="" width="100%">
                         </div>
                         <h4>
-                            Self reliance
+                            Self<br>reliance
                         </h4>
                     </div>
                 </div>
@@ -239,20 +239,28 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="footer-text-left">
-                        © 2018 Freedom Culture  
+                <div class="col-lg-6 order-lg-1 order-md-2">
+                    <div class="footer-text-left text-lg-left text-center">
+                        &copy; 2018 Freedom Culture  
                         <a href="#">
-                            info@freedomculture.com
+                            info&#64;freedomculture.com
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 order-lg-2 order-md-1">
                    <div class="footer-text-right">
-                        Terms &amp; Conditions
-                        <span>
-                            Privacy Policy
-                       </span>
+                        <ul class="d-flex justify-content-lg-end justify-content-center m-0 p-0">
+                            <li>
+                                <a href="#">
+                                    Terms &amp; Conditions
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="line-left">
+                                    Privacy Policy
+                                </a>
+                            </li> 
+                        </ul>  
                    </div> 
                 </div>
             </div>

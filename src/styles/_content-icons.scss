@@ -1,13 +1,19 @@
 .content-icons{
     padding:70px 70px;
+    h2{
+        text-align: center;
+        font-family: $font-family-primary;
+        font-size: 30px;
+        font-weight: 700;
+    }
 }
 
 .icon-block{
-    border:1px solid green;
     padding-bottom: 25px;
     .img-block{
         display: flex;
         justify-content: center;
+        padding:27px 0;
         img{
             max-width:179px;
         }
