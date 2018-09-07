@@ -10555,6 +10555,8 @@ a.text-dark:focus {
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 150px;
+  background-color: #0e1121;
 }
 
 .hero-button-content {
@@ -10584,42 +10586,23 @@ a.text-dark:focus {
   left: 48%;
 }
 
-.triangle-left,
-.triangle-right {
-  width: 50%;
+.triagle-block {
+  position: relative;
+  width: 100%;
+}
+
+.triagle-left {
+  border: 1px solid green;
+  width: 59%;
   position: absolute;
-  z-index: 1;
-}
-
-.triangle-left {
   left: 0;
-  top: 0;
 }
 
-.triangle-left::after {
-  content: "";
-  display: block;
-  width: 100%;
-  min-height: 140px;
-  background: linear-gradient(10deg, #020024 49%, #790909 50%, transparent 51%);
-}
-
-.triangle-right {
+.triagle-right {
+  border: 1px solid red;
+  width: 59%;
+  position: absolute;
   right: 0;
-  top: 0;
-}
-
-.triangle-right::after {
-  content: "";
-  display: block;
-  width: 100%;
-  min-height: 140px;
-  background: linear-gradient(172deg, transparent 49%, #790909 50%, #00d4ff 51%);
-}
-
-.content-block {
-  min-height: 500px;
-  color: #fff;
 }
 
 .content-icons {
@@ -10661,6 +10644,7 @@ a.text-dark:focus {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-blend-mode: hard-light;
 }
 
 .content-items .item-img,
@@ -10697,6 +10681,8 @@ a.text-dark:focus {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  position: relative;
+  z-index: 3;
 }
 
 @media (max-width: 991.98px) {
@@ -10705,6 +10691,18 @@ a.text-dark:focus {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+
+.bg-block-primary::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(14, 17, 33, 0)), to(#0e1121));
+  background: linear-gradient(to right, rgba(14, 17, 33, 0) 0%, #0e1121 100%);
+  z-index: 1;
 }
 
 .item-text {
@@ -10731,8 +10729,9 @@ a.text-dark:focus {
 }
 
 .item-text .text-left-block {
-  max-width: 600px;
+  max-width: 472px;
   padding-right: 35px;
+  z-index: 10;
 }
 
 @media (max-width: 991.98px) {
@@ -10746,7 +10745,7 @@ a.text-dark:focus {
 }
 
 .item-text .text-right-block {
-  max-width: 600px;
+  max-width: 472px;
   padding-left: 35px;
 }
 

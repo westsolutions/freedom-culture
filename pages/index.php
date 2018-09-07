@@ -27,17 +27,27 @@
             </div>
         </div>
         <div class="hero-button-block">
-            <div class="hero-button-content">
-                <div class="triangle-left"></div>
-                <div class="hero-video-button">
-                    <img src="<?= asset('images/video-icon.svg') ?>" alt="">
-                </div>
-                <div class="triangle-right"></div>
+           <div class="hero-botton-content">
+               <div class="hero-video-button">
+                <img src="<?= asset('images/video-icon.svg') ?>" alt="">
             </div>
+            <div class="triagle-block">
+                <div class="triagle-content">
+                    <div class="triagle-left"></div>
+                    <div class="triagle-right"></div> 
+                </div>
+            </div>
+           </div>
+            
         </div>
+        
     </section>
     <section class="content-block">
-        <div class="container">
+            
+           
+           
+           
+           <div class="container">
             <div class="d-flex flex-column justify-content-center text-center">
                 <h3>
                    Our mission is to profilerate
@@ -46,9 +56,9 @@
                     freedom culture
                 </h2>
                 <div class="">
-                    <h3></h3>
-                    <span class="name"></span>
-                    <div>
+                    <h3>FREEDOM CULTURE</h3>
+                    <span class="name">Noun</span>
+                    <div class="">
                         A collective state of being that empowers and encourages all individuals to contribute their unique gifts to the world
                     </div>
                 </div>
@@ -121,7 +131,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-2 order-1">
-                    <div class="item-img" style="background-image:url(<?= asset('images/media.png') ?>)">
+                    <div class="item-img" style="background-image:linear-gradient(to right, rgba(45,48,62,1) 0%,  rgba(45,48,62,1) 25%,transparent 25%, transparent 100%) , url(<?= asset('images/media.png') ?>)">
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-3 order-3">
