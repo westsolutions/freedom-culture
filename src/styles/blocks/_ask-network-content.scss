@@ -21,31 +21,35 @@
         text-transform: uppercase;
         color: $secondary-color;
     }
+}
+
+.social-network-icons{
+    margin: 0;
+    padding: 0;
     li{
         list-style: none;
         padding: 0 8px;
-    }
-    .social-network-block{
-        display: block;
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        border: 1px solid $secondary-color;
-        i{
-            font-size: 18px;
-            font-weight: 400;
-            letter-spacing: 1.32px;
-            line-height: 32px;
-            color:#fff;
-        }
-        &:hover{
-            background-color: $secondary-color;
+        .social-network-block{
+            display: block;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 1px solid $secondary-color;
             i{
-               color:$primary-color; 
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 1.32px;
+                line-height: 32px;
+                color:#fff;
             }
-            
-        }
-    } 
+            &:hover{
+                background-color: $secondary-color;
+                i{
+                   color:$primary-color; 
+                }
+            }
+        } 
+    }
 }
 
 .logo-buttom{

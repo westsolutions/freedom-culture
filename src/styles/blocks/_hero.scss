@@ -1,7 +1,7 @@
 .hero{
     min-height:584px;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center bottom;
     background-size: cover;
     color:#fff;
     position: relative;
@@ -9,7 +9,6 @@
     .logo-img{
         max-width: 112px;
         display: block;
-        
     }
 }
 
@@ -30,48 +29,83 @@
     position: absolute;
     bottom: 0;
     width:100%;
-    height: 150px;
-    background-color:#0e1121;
+    min-height: 150px;
+    overflow: hidden;
+    .hero-video-content{
+        position: absolute;
+        width:100% ;
+        height: 100% !important;
+        .hero-video-button{
+            width: 52px;
+            height: 52px;
+            border: 3px solid #dcaa26;
+            background-color: #0e1121;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            z-index: 3;
+        }
+    }
 }
 
-.hero-button-content{
-    position:relative;
-    min-height: 140px;
-}
 
-.hero-video-button{
-    width: 52px;
-    height: 52px;
-    border: 3px solid #dcaa26;
-    background-color: #0e1121;
-    border-radius: 50%;
+
+.hero-triagle-block{
+    border:1px solid green 1px;
     display: flex;
-    justify-content: center;
-    align-items:center;
-    margin:0 auto;
-    z-index: 2;
-    position: absolute;
-    bottom: 0;
-    left:48%;
+    justify-content: space-between;
+    .triagle-right{
+        width: 50%;
+        position: relative;
+        &::after{
+            display: block;
+            content: "";
+            width: 0;
+            height: 150px;
+            border-top: 80px solid transparent;
+            border-right: 50vw solid #DCAA26;
+            border-bottom: 0 solid transparent;
+            position: absolute;
+            z-index: 1;
+        }
+        &::before{
+            display: block;
+            content: "";
+            width: 0;
+            height: 150px;
+            border-top: 83px solid transparent;
+            border-right: 52vw solid #0e1121;
+            border-bottom: 0 solid transparent;
+            position: absolute;
+            z-index: 2;
+        }
+    }
+    .triagle-left{
+        width: 50%;
+        position: relative;
+        &::after{
+            display: block;
+            content: "";
+            width: 0;
+            height: 150px;
+            border-top: 80px solid transparent;
+            border-left: 50vw solid #DCAA26;
+            border-bottom: 0 solid transparent;
+            position: absolute;
+            z-index: 1;
+        }
+        &::before{
+            display: block;
+            content: "";
+            width: 0;
+            height: 150px;
+            border-top: 83px solid transparent;
+            border-left: 52vw solid #0e1121;
+            border-bottom: 0 solid transparent;
+            position: absolute;
+            left: -2vw;
+            z-index: 2;
+        }
+    }
 }
-
-.triagle-block{
-    position: relative;
-    width: 100%;
-}
-
-.triagle-left{
-    border: 1px solid green;
-    width:59%;
-    position: absolute;
-    left:0;
-}
-
-.triagle-right{
-    border: 1px solid red;
-    width:59%;
-    position: absolute;
-    right: 0;
-}
-
-

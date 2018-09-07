@@ -27,39 +27,37 @@
             </div>
         </div>
         <div class="hero-button-block">
-           <div class="hero-botton-content">
-               <div class="hero-video-button">
-                <img src="<?= asset('images/video-icon.svg') ?>" alt="">
-            </div>
-            <div class="triagle-block">
-                <div class="triagle-content">
-                    <div class="triagle-left"></div>
-                    <div class="triagle-right"></div> 
+            <div class="hero-video-content d-flex">
+                <div class="d-flex justify-content-center align-items-center w-100">
+                    <div class="hero-video-button">
+                        <img src="<?= asset('images/video-icon.svg') ?>" alt=""> 
+                    </div>
                 </div>
             </div>
-           </div>
-            
+            <div class="hero-triagle-block">
+                <div class="triagle-left"></div>
+                <div class="triagle-right"></div>
+            </div>
         </div>
-        
     </section>
     <section class="content-block">
-            
-           
-           
-           
-           <div class="container">
-            <div class="d-flex flex-column justify-content-center text-center">
-                <h3>
-                   Our mission is to profilerate
-                </h3>
-                <h2>
-                    freedom culture
-                </h2>
-                <div class="">
+        <div class="container">
+            <div class="d-flex flex-column justify-content-center">
+                <div class="content-title">
+                    <h3>
+                       Our mission is to profilerate
+                    </h3>
+                    <h2>
+                        freedom culture
+                    </h2>
+                </div>
+                <div class="content-block-text">
                     <h3>FREEDOM CULTURE</h3>
                     <span class="name">Noun</span>
-                    <div class="">
-                        A collective state of being that empowers and encourages all individuals to contribute their unique gifts to the world
+                    <div class="quote-text">
+                        <p>
+                            A collective state of being that empowers and encourages all individuals to contribute their unique gifts to the world
+                        </p>
                     </div>
                 </div>
             </div>
@@ -131,15 +129,19 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-2 order-1">
-                    <div class="item-img" style="background-image:linear-gradient(to right, rgba(45,48,62,1) 0%,  rgba(45,48,62,1) 25%,transparent 25%, transparent 100%) , url(<?= asset('images/media.png') ?>)">
-                    </div>
+                        <div class="d-lg-block d-none  item-img" style="background-image:linear-gradient(to right, #747a9d 0%,  #747a9d 25%,transparent 25%, transparent 100%) , url(<?= asset('images/media.png') ?>)">
+                        </div>
+                        <div class="d-lg-none d-block item-img" style="background-image:url(<?= asset('images/media.png') ?>)">
+                        </div>
                 </div>
                 <div class="col-lg-6 order-lg-3 order-3">
-                    <div class="item-img" style="background-image:url(<?= asset('images/community.png') ?>)">
+                    <div class="d-lg-block d-none item-img" style="background-image:linear-gradient(to left, #DCAA26 0%, #DCAA26 18%,transparent 18%, transparent 100%), url(<?= asset('images/community.png') ?>)">
+                    </div>
+                    <div class="d-lg-none d-block item-img" style="background-image: url(<?= asset('images/community.png') ?>)">
                     </div>
                 </div>
-                <div class="col-lg-6 order-lg-4 order-4 d-flex">
-                    <div class="item-text bg-block-secondary">
+                <div class="col-lg-6 order-lg-4 order-4">
+                    <div class="item-text bg-block-secondary border-secondary-1">
                         <div class="text-right-block">
                             <h2><span>We</span> Unite Influencers</h2>
                             <div class="text-content">
@@ -169,15 +171,19 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-6 order-5">
-                    <div class="item-img" style="background-image:url(<?= asset('images/teaching.png') ?>)">
+                    <div class="d-lg-block d-none item-img" style="background-image:linear-gradient(to right, #747a9d 0%,  #747a9d 8%,transparent 8%, transparent 100%) , url(<?= asset('images/teaching.png') ?>)">
+                    </div>
+                    <div class="d-lg-none d-block item-img" style="background-image: url(<?= asset('images/teaching.png') ?>)">
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-7 order-7">
-                    <div class="item-img bg-right" style="background-image:url(<?= asset('images/incubator.png') ?>)">
+                    <div class="d-lg-block d-none item-img bg-right" style="background-image:linear-gradient(to left, #DCAA26 0%, #DCAA26 6%,transparent 6%, transparent 100%), url(<?= asset('images/incubator.png') ?>)">
+                    </div>
+                    <div class="d-lg-none d-block item-img bg-right" style="background-image:url(<?= asset('images/incubator.png') ?>)">
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-8 order-8">
-                    <div class="item-text bg-block-secondary">
+                    <div class="item-text bg-block-secondary border-secondary-2">
                         <div class="text-right-block">
                             <h2><span>We</span> Incubate Ideas</h2>
                             <div class="text-content">
@@ -207,7 +213,7 @@
             <div class="social-network-content">
                 <h3>Join the movement</h3>
                 <div class="d-flex justify-content-center">
-                    <ul class="d-flex m-0 p-0">
+                    <ul class="d-flex social-network-icons">
                         <li>       
                             <a href="#" class="social-network-block">
                                 <i class="fab fa-facebook-f"></i> 
@@ -280,11 +286,11 @@
     <script src="<?= asset('scripts/main.js') ?>"></script>
     <script>
         function openNav() {
-            document.getElementById("myNav").style.height = "100%";
+            document.getElementById("myNav").style.display = "block";
         }
 
         function closeNav() {
-            document.getElementById("myNav").style.height = "0%";
+            document.getElementById("myNav").style.display = "none";
         }
     </script>
 </body>

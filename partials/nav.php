@@ -3,7 +3,7 @@
         <a href="javascript:void(0)" class="position-absolute btn-close" onclick="closeNav()">&times;</a>     
     </div>
     <div class="container h-100 d-flex justify-content-center align-items-center">
-            <ul class="overlay-content d-flex flex-column m-0 p-0">
+            <ul class="overlay-content d-flex flex-column">
                 <li>
                     <a href="#">Manifesto</a>
                 </li>
