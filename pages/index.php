@@ -47,6 +47,7 @@
     </div>
   </section>
   <!-- hero -->
+  <!-- .content-block -->
   <section class="content-block">
     <div class="container">
       <div class="d-flex flex-column justify-content-center">
@@ -70,6 +71,9 @@
     </div>
   </div>
 </section>
+<!-- .content-block -->
+
+<!-- content-icon -->
 <section class="content-icons">
   <div class="container">
     <h2>Our Core Values</h2>
@@ -117,6 +121,7 @@
     </div>
   </div>
 </section>
+<!-- content-icon -->
 <!-- content-items -->
 <section class="content-items">
   <div class="container-fluid p-0">
@@ -208,7 +213,7 @@
     </div>
   </div>
 </section>
-
+<!-- content-items -->
 <!-- ask-network-content -->
 <section class="ask-network-content">
   <div class="container">
