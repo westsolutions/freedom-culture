@@ -2,6 +2,8 @@
 
 <body>
   <?php partial('nav') ?>
+
+  <!-- hero -->
   <section class="hero" style="background-image: url('<?= asset('images/hero-bg.png') ?>')">
     <div class="container">
       <div class="d-flex justify-content-end">
@@ -44,6 +46,7 @@
       </div>
     </div>
   </section>
+  <!-- hero -->
   <section class="content-block">
     <div class="container">
       <div class="d-flex flex-column justify-content-center">
@@ -114,6 +117,7 @@
     </div>
   </div>
 </section>
+<!-- content-items -->
 <section class="content-items">
   <div class="container-fluid p-0">
     <div class="row no-gutters">
@@ -204,6 +208,8 @@
     </div>
   </div>
 </section>
+
+<!-- ask-network-content -->
 <section class="ask-network-content">
   <div class="container">
    <div class="ask-title">
@@ -257,6 +263,8 @@
     </div>
   </div>
 </section>
+<!-- ask-network-content -->
+
 <footer class="main-footer">
   <div class="container">
     <div class="row">
@@ -287,6 +295,7 @@
   </div>
 </div>
 </footer>
+
 <?php partial('svg') ?>
 <script src="<?= asset('scripts/main.js') ?>"></script>
 </body>
