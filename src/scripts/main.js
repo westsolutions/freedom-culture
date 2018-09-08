@@ -1,15 +1,18 @@
 import $ from 'jquery';
 window.$ = window.jQuery = $;
 import 'bootstrap/dist/js/bootstrap';
-
+import 'magnific-popup/dist/jquery.magnific-popup.min';
 
 $(document).ready(function(){
-  var title = $("title").text();
-  console.log(title + " is ready.");
+  $('.js--toggle-menu').click(function(){
+    $('.js--nav').fadeToggle('fast');
+  });
+
+  $('.js--play-video').magnificPopup({
+    type: 'iframe',
+  });
+
 });
-
-
-
 
 
 

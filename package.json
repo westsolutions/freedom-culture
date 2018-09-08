@@ -20,7 +20,7 @@
   "engines": {
     "node": ">= 6.9.4"
   },
- "scripts": {
+  "scripts": {
     "dev": "set NODE_ENV=development && node ./node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "set NODE_ENV=development && node ./node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "hot": "set NODE_ENV=development && webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -30,13 +30,14 @@
     "browser-sync": "^2.23.6",
     "browser-sync-webpack-plugin": "^2.0.1",
     "copy-webpack-plugin": "^4.5.1",
-    "imagemin-webpack-plugin": "^2.1.0",
     "imagemin-mozjpeg": "^7.0.0",
+    "imagemin-webpack-plugin": "^2.1.0",
     "laravel-mix": "^2.0.0"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
     "jquery": "^3.3.1",
+    "magnific-popup": "^1.1.0",
     "popper.js": "^1.12.9"
   }
 }

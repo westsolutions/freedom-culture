@@ -1,6 +1,6 @@
-<nav id="myNav" class="overlay">
+<nav class="overlay js--nav">
     <div class="container position-relative">
-        <a href="javascript:void(0)" class="position-absolute btn-close" onclick="closeNav()">&times;</a>     
+        <a href="javascript:void(0)" class="position-absolute btn-close js--toggle-menu">&times;</a>     
     </div>
     <div class="container h-100 d-flex justify-content-center align-items-center">
             <ul class="overlay-content d-flex flex-column">

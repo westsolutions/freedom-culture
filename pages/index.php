@@ -5,7 +5,7 @@
     <section class="hero" style="background-image: url('<?= asset('images/hero-bg.png') ?>')">
         <div class="container">
             <div class="d-flex justify-content-end">
-                <div class="menu-button" onclick="openNav()">
+                <div class="menu-button js--toggle-menu">
                     <img src="<?= asset('images/menu-icon.svg') ?>" alt="">
                 </div>
             </div>
@@ -29,9 +29,9 @@
         <div class="hero-button-block">
             <div class="hero-video-content d-flex">
                 <div class="d-flex justify-content-center align-items-center w-100">
-                    <div class="hero-video-button">
-                        <img src="<?= asset('images/video-icon.svg') ?>" alt=""> 
-                    </div>
+                    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="hero-video-button js--play-video">
+                        <img src="<?= asset('images/video-icon.svg') ?>"> 
+                    </a>
                 </div>
             </div>
             <div class="hero-triagle-block">
@@ -284,14 +284,5 @@
         </div>
     </footer>
     <script src="<?= asset('scripts/main.js') ?>"></script>
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.display = "block";
-        }
-
-        function closeNav() {
-            document.getElementById("myNav").style.display = "none";
-        }
-    </script>
-</body>
+ </body>
 </html>
