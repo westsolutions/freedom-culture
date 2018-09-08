@@ -10890,6 +10890,7 @@ a.text-dark:focus {
   color: #fff;
   position: relative;
   padding-top: 30px;
+  overflow-x: hidden;
 }
 
 .hero .logo-img {
@@ -10911,24 +10912,24 @@ a.text-dark:focus {
   font-weight: 400;
 }
 
-.hero-button-block {
+.hero-play {
   position: absolute;
-  bottom: 0;
-  width: 100%;
-  min-height: 150px;
-  overflow: hidden;
+  bottom: 65px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 100;
 }
 
-.hero-button-block .hero-video-content {
-  position: absolute;
-  width: 100%;
-  height: 100% !important;
-}
-
-.hero-button-block .hero-video-content .hero-video-button {
+.hero-play .hero-play-btn {
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
   width: 52px;
   height: 52px;
   border: 3px solid #dcaa26;
+  position: absolute;
+  left: 50%;
+  top: 50%;
   background-color: #0e1121;
   border-radius: 50%;
   display: -webkit-box;
@@ -10951,6 +10952,12 @@ a.text-dark:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translate(0, -150px);
+          transform: translate(0, -150px);
 }
 
 .hero-triagle-block .triagle-right {
