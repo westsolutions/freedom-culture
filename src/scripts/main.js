@@ -6,6 +6,7 @@ import 'magnific-popup/dist/jquery.magnific-popup.min';
 $(document).ready(function(){
   $('.js--toggle-menu').click(function(){
     $('.js--nav').fadeToggle('fast');
+    $('body').toggleClass('disabled-scrolling');
   });
 
   $('.js--play-video').magnificPopup({
@@ -13,10 +14,3 @@ $(document).ready(function(){
   });
 
 });
-
-
-
-
-
-
-

@@ -10462,6 +10462,7 @@ window.$ = window.jQuery = __WEBPACK_IMPORTED_MODULE_0_jquery___default.a;
 __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).ready(function () {
   __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.js--toggle-menu').click(function () {
     __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.js--nav').fadeToggle('fast');
+    __WEBPACK_IMPORTED_MODULE_0_jquery___default()('body').toggleClass('disabled-scrolling');
   });
 
   __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.js--play-video').magnificPopup({

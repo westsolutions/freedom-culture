@@ -1,9 +1,7 @@
 <nav class="overlay js--nav">
-    <div class="container position-relative">
-        <a href="javascript:void(0)" class="position-absolute btn-close js--toggle-menu">&times;</a>     
-    </div>
-    <div class="container h-100 d-flex justify-content-center align-items-center">
-            <ul class="overlay-content d-flex flex-column">
+    <div class="container d-flex position-relative">
+            <a href="javascript:void(0)" class="position-absolute btn-close js--toggle-menu">&times;</a>
+            <ul class="overlay-content d-flex flex-column justify-content-center align-items-center">
                 <li>
                     <a href="#">Manifesto</a>
                 </li>
