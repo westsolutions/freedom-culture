@@ -10,6 +10,9 @@
         font-size: 40px;
         font-weight: 700;
         text-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+        @media screen and (max-width:568px){
+            font-size: 28px;
+        }
     }
 }
 
@@ -29,6 +32,9 @@
     li{
         list-style: none;
         padding: 0 8px;
+        @media screen and (max-width:568px){
+            padding: 0 3px;
+        }
         .social-network-block{
             display: block;
             width: 36px;

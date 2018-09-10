@@ -6,44 +6,44 @@
   <!-- hero -->
   <section class="hero" style="background-image: url('<?= asset('images/hero-bg.png') ?>')">
     <div class="container">
-      <div class="d-flex justify-content-end">
-        <div class="menu-button js--toggle-menu">
-          <svg width="29" height="21">
-            <use xlink:href="#burger"></use>
-          </svg>
+        <div class="d-flex justify-content-end">
+            <div class="menu-button js--toggle-menu">
+                <svg width="29" height="21">
+                    <use xlink:href="#burger"></use>
+                </svg>
+            </div>
         </div>
-      </div>
-      <div class="d-flex justify-content-center">
-        <a class="logo-img" href="/">
-          <img src="<?= asset('images/logo.png') ?>" alt="">
-        </a>
-      </div>
-      <div class="hero-text-content">
-        <small class="hero-title-small">
-          It’s time for a
-        </small>
-        <h1 class="hero-title">
-          Decentralized Revolution
-        </h1>
-        <div class="hero-title-text">
-          A revolution for our <strong>freedom</strong>. Are you one of us?
+        <div class="d-flex justify-content-center">
+            <a class="logo-img" href="/">
+                <img src="<?= asset('images/logo.png') ?>" alt="">
+            </a>
         </div>
-      </div>
+        <div class="hero-text-content">
+            <h1 class="hero-title">
+                <small class="text-lowercase">
+                  It’s time for a
+                </small>
+                <br>
+                Decentralized Revolution
+            </h1>
+            <div class="hero-title-text">
+              A revolution for our <strong>freedom</strong>. Are you one of us?
+            </div>
+        </div>
     </div>
     <div class="hero-play">
-    <svg class="button-label" width="89" height="34">
-      <use xlink:href="#watch-online"></use>
-    </svg>
-    <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="hero-play-btn js--play-video">
-      <svg width="26" height="26">
-        <use xlink:href="#play"></use>
-      </svg>
-    </a>
-  </div>
-      <div class="hero-triagle-block">
+        <svg class="button-label" width="89" height="34">
+          <use xlink:href="#watch-online"></use>
+        </svg>
+        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="hero-play-btn js--play-video">
+          <svg width="26" height="26">
+            <use xlink:href="#play"></use>
+          </svg>
+        </a>
+    </div>
+    <div class="hero-triagle-block">
         <div class="triagle-left"></div>
         <div class="triagle-right"></div>
-      </div>
     </div>
   </section>
   <!-- hero -->
@@ -52,12 +52,13 @@
     <div class="container">
       <div class="d-flex flex-column justify-content-center">
         <div class="content-title">
-          <h3>
-           Our mission is to profilerate
-         </h3>
-         <h2>
-          freedom culture
-        </h2>
+            <h2>
+                <small>
+                    Our <strong>mission</strong> is to profilerate
+                </small>
+                <br>
+                freedom culture
+            </h2>
       </div>
       <div class="content-block-text">
         <h3>FREEDOM CULTURE</h3>
@@ -142,7 +143,7 @@
         </div>
       </div>
       <div class="col-lg-6 order-lg-2 order-1">
-        <div class="d-lg-block d-none  item-img" style="background-image:linear-gradient(to right, #747a9d 0%,  #747a9d 25%,transparent 25%, transparent 100%) , url(<?= asset('images/media.png') ?>)">
+        <div class="d-lg-block d-none item-img" style="background-image:linear-gradient(to right, #747a9d 0%,  #747a9d 25%,transparent 25%, transparent 100%) , url(<?= asset('images/media.png') ?>)">
         </div>
         <div class="d-lg-none d-block item-img" style="background-image:url(<?= asset('images/media.png') ?>)">
         </div>
