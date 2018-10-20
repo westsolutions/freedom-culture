@@ -95,4 +95,12 @@
       }  
   }
   
-  
+.arrow-window{
+    position: fixed;
+    color: #fff !important;
+    font-size: 24px;
+    z-index: 100;
+    right: 36px;
+    bottom:144px;
+    cursor: pointer;
+}

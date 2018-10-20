@@ -1,6 +1,6 @@
 <?php partial('head') ?>
 
-<body>
+<body id="window-top">
   <?php partial('nav') ?>
 
   <!-- hero -->
