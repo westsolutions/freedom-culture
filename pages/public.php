@@ -22,16 +22,21 @@
         <div class="hero-text-content">
             <h1 class="hero-title">
                 <small class="text-capitalize">
-                  Please Do Not Share:
+                    We are building a powerful tribe via a
                 </small>
                 <br>
-                This is a private invitation specifically for you
+                private mastermind
             </h1>
             <!--<div class="hero-title-text">
               A revolution for our <strong>freedom</strong>. Are you one of us?
             </div>-->
         </div>
-        <div class="hero-play">
+        
+      </div>
+    </div>
+  </section>
+  <section class="play-btn">
+  <div class="hero-play">
           <svg class="button-label" width="89" height="34">
             <use xlink:href="#watch-online"></use>
           </svg>
@@ -42,9 +47,6 @@
             <img src="<?= asset('images/play.png') ?>" alt="">
           </a>
         </div>
-      </div>
-    </div>
-    
   </section>
   <!-- hero -->
   <!--.content-banner-->
