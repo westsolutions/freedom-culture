@@ -1,0 +1,28 @@
+.event-detail{
+    height: 94px;
+    background-color: $secondary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .event-detail-content{
+        font-family: $font-family-base;
+        font-size: 30px;
+        font-weight: 400;
+        color: #ffffff;
+        text-decoration: none;
+        mark{
+            color:$primary-color;
+            font-weight: 700;
+            background-color: transparent;
+            i{
+                font-size: 22px;
+            }
+        }
+        &:hover{
+            color:$primary-color;
+            mark{
+                color:#fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.video-block{
+    padding:36px 0 58px;
+    display: flex;
+    justify-content: center;
+    &.video-bg-gr-primary{
+        background-image: -webkit-repeating-linear-gradient(315deg, #14182f -0.1%, #14182f 0.01%, #0e1121 0.2%, #0e1121 1.1%);
+        background-image: repeating-linear-gradient(135deg, #14182f -0.1%, #14182f 0.01%, #0e1121 0.2%, #0e1121 1.1%);
+    }
+    &.video-bg-primary{
+        background-color:$primary-color;
+    }
+}
+
+.video-block-title{
+    padding-bottom:16px;
+    h3{
+        font-family: $font-family-base;
+        font-size: 24px;
+        color: #ffffff;
+        mark{
+            background-color: transparent;
+            font-weight: 700;
+            color: $font-color;
+            padding:0;
+        }
+    }
+}
+
+.video-content{
+    width:360px;
+    height: 241px;
+}

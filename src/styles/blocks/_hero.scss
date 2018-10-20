@@ -7,6 +7,7 @@
   position: relative;
   padding-top:30px;
   overflow-x: hidden;
+  border-bottom:3px solid $secondary-color; //
     .menu-button{
         position: absolute;
         top:0;
@@ -42,7 +43,7 @@
 
 .hero-play {
   position: absolute;
-  bottom: 65px;
+  //bottom: 65px;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -52,13 +53,16 @@
       -webkit-transform: translate(-50%, 0);
           -ms-transform: translate(-50%, 0);
               transform: translate(-50%, 0);
-      width: 52px;
-      height: 52px;
+      //width: 52px;
+      //height: 52px;
+      width: 78px;//
+      height: 78px;//
       border: 3px solid #dcaa26;
       position: absolute;
       left: 50%;
       top: 50%;
-      background-color: #0e1121;
+      //background-color: #0e1121;
+        background-color: #fff;
       border-radius: 50%;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -70,6 +74,9 @@
           -ms-flex-align:center;
               align-items:center;
       z-index: 10;
+      img{
+          width:36px;
+      }
     }
 }
 

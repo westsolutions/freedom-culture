@@ -1,0 +1,65 @@
+.content-banner{
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-blend-mode: multiply;
+    .content-banner-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 493px;
+    }
+}
+
+.content-banner-title{
+    padding-bottom:6px;
+    h2{
+        font-family: $font-family-base;
+        font-size: 30px;
+        font-weight: 700;
+        color: #ffffff;
+        mark{
+            background-color: transparent;
+            color:$secondary-color;
+        }
+    }
+}
+
+.content-banner-data-block{
+    padding-bottom:20px;
+    text-align: center;
+    font-family: $font-family-base;
+    font-size: 24px;
+    line-height: 1;
+    color: #ffffff;
+}
+
+.banner-logo-block{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: $secondary-color;
+}
+
+.banner-logo{
+    width:72px;
+    margin:0 auto;
+    img{
+        width:100%;
+        display: block;
+    }
+}
+
+.banner-btn-content{
+    padding-top:26px;
+    .btn-secondary{
+        background-color: $secondary-color;
+        border:none;
+        padding:15px 31px;
+        &:hover{
+            color:$primary-color;
+        }
+    }
+}
