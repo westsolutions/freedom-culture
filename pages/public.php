@@ -21,32 +21,25 @@
       <div class="hero-content">  
         <div class="hero-text-content">
             <h1 class="hero-title">
-                <small class="text-capitalize">
+                <small class="text-lowercase">
                     We are building a powerful tribe via a
                 </small>
                 <br>
                 private mastermind
             </h1>
-            <!--<div class="hero-title-text">
-              A revolution for our <strong>freedom</strong>. Are you one of us?
-            </div>-->
         </div>
-        
       </div>
     </div>
-  </section>
-  <section class="play-btn">
-  <div class="hero-play">
-          <svg class="button-label" width="89" height="34">
-            <use xlink:href="#watch-online"></use>
-          </svg>
-          <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="hero-play-btn js--play-video">
-            <!--<svg width="26" height="26">
-              <use xlink:href="#play"></use>
-            </svg>-->
-            <img src="<?= asset('images/play.png') ?>" alt="">
-          </a>
-        </div>
+    <div class="play-btn-block">
+      <div class="hero-play">
+        <svg class="button-label" width="89" height="34">
+          <use xlink:href="#watch-online"></use>
+        </svg>
+        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="hero-play-btn js--play-video">
+          <img src="<?= asset('images/play.svg') ?>" alt=""/>
+        </a>
+      </div>
+    </div>
   </section>
   <!-- hero -->
   <!--.content-banner-->
@@ -82,8 +75,6 @@
   </div>
 </section>
  <!--content-baner-->
-
-
  <section class="content-img-section" style="background:url('<?= asset('images/content-img.png') ?>')">
  </section>
 <!-- ask-network-content -->
@@ -105,7 +96,6 @@
     </div>
   </div>
   <div class="social-network-content">
-    <h3>Join the movement</h3>
     <div class="d-flex justify-content-center">
       <ul class="d-flex social-network-icons">
         <li>       
@@ -148,7 +138,6 @@
   </div>
 </section>
 <!-- ask-network-content -->
-
 <footer class="main-footer">
   <div class="container">
     <div class="row">
