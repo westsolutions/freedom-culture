@@ -1,5 +1,8 @@
 .video-block{
-    padding:36px 0 58px;
+    padding:36px 15px;
+    @include media-breakpoint-up(md) {
+        padding:36px 15px 58px;
+    }
     display: flex;
     justify-content: center;
     &.video-bg-gr-primary{
@@ -27,6 +30,17 @@
 }
 
 .video-content{
-    width:360px;
+    width:290px;
     height: 241px;
+    @include media-breakpoint-up(sm) {
+        width:395px;
+    }
+    @include media-breakpoint-up(md) {
+        width:360px;
+        height: 241px;
+    }
+    @include media-breakpoint-up(lg) {
+        width:460px;
+        height: 300px;
+    }
 }

@@ -21,7 +21,7 @@
       <div class="hero-content">  
         <div class="hero-text-content">
             <h1 class="hero-title">
-                <small class="text-capitalize">
+                <small class="text-lowercase">
                   Please Do Not Share:
                 </small>
                 <br>
@@ -31,17 +31,16 @@
               A revolution for our <strong>freedom</strong>. Are you one of us?
             </div>-->
         </div>
-        <div class="hero-play">
-          <svg class="button-label" width="89" height="34">
-            <use xlink:href="#watch-online"></use>
-          </svg>
-          <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="hero-play-btn js--play-video">
-            <!--<svg width="26" height="26">
-              <use xlink:href="#play"></use>
-            </svg>-->
-            <i class="fas fa-play"></i>
-          </a>
-        </div>
+      </div>
+    </div>
+    <div class="play-btn-block">
+      <div class="hero-play">
+        <svg class="button-label" width="89" height="34">
+          <use xlink:href="#watch-online"></use>
+        </svg>
+        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="hero-play-btn js--play-video">
+          <img src="<?= asset('images/play.svg') ?>" alt=""/>
+        </a>
       </div>
     </div>
   </section>

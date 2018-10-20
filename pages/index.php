@@ -31,19 +31,15 @@
             </div>
         </div>
     </div>
-    <div class="hero-play">
+    <div class="play-btn-block">
+      <div class="hero-play">
         <svg class="button-label" width="89" height="34">
           <use xlink:href="#watch-online"></use>
         </svg>
         <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="hero-play-btn js--play-video">
-          <svg width="26" height="26">
-            <use xlink:href="#play"></use>
-          </svg>
+          <img src="<?= asset('images/play.svg') ?>" alt=""/>
         </a>
-    </div>
-    <div class="hero-triagle-block">
-        <div class="triagle-left"></div>
-        <div class="triagle-right"></div>
+      </div>
     </div>
   </section>
   <!-- hero -->
