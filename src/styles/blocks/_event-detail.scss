@@ -26,3 +26,16 @@
         }
     }
 }
+
+.content-img-section{
+    min-height: 282px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    @media screen and (min-width: 768px){
+        min-height: 361px;
+    }
+    @media screen and (min-width: 992px){
+        min-height: 461px;
+    }
+}

@@ -1,5 +1,5 @@
 .hero{
-  min-height:584px;
+  height:584px;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -25,6 +25,8 @@
         font-size: 40px;
         text-transform: uppercase;
         font-weight: 700;
+        max-width:930px;
+        margin:0 auto;
         @include media-breakpoint-down(sm) {
             font-size:28px;
         }
@@ -79,8 +81,6 @@
       }
     }
 }
-
-
 .hero-triagle-block{
   display: -webkit-box;
   display: -ms-flexbox;

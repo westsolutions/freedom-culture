@@ -4,7 +4,7 @@
   <?php partial('nav') ?>
 
   <!-- hero -->
-  <section class="hero" style="background-image: url('<?= asset('images/hero-bg.png') ?>')">
+  <section class="hero" style="background-image:linear-gradient(to top, rgba(0, 0, 0, 0), #0e1121) , url('<?= asset('images/hero-bg.png') ?>')">
     <div class="container">
         <div class="d-flex justify-content-end">
             <div class="menu-button js--toggle-menu">
@@ -39,12 +39,11 @@
             <!--<svg width="26" height="26">
               <use xlink:href="#play"></use>
             </svg>-->
-            <img src="<?= asset('images/play.png') ?>" alt="">
+            <i class="fas fa-play"></i>
           </a>
         </div>
       </div>
     </div>
-    
   </section>
   <!-- hero -->
   <!--.content-banner-->
@@ -56,13 +55,13 @@
             Costa Rica <mark>&amp;</mark> Envision Festival <mark>2019</mark>
           </h2>
         </div>
-        <div class="content-banner-data-block">
+        <div class="content-banner-data-block ">
           <p>
             February 23 – March 3
           </p>
         </div>
         <div class="banner-logo-block">
-          <div class="banner-logo-text">
+          <div class="banner-logo-text text-uppercase">
             <p>
               Powered by:
             </p>
