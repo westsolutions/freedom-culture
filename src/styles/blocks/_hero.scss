@@ -1,5 +1,5 @@
 .hero{
-  min-height:584px;
+  height:584px;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -25,6 +25,8 @@
         font-size: 40px;
         text-transform: uppercase;
         font-weight: 700;
+        max-width:930px;
+        margin:0 auto;
         @include media-breakpoint-down(sm) {
             font-size:28px;
         }
@@ -41,9 +43,15 @@
   }
 }
 
+.play-btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
 .hero-play {
-  position: absolute;
-  //bottom: 65px;
+  /*position: absolute;
+  bottom: 65px;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -58,9 +66,9 @@
       width: 78px;//
       height: 78px;//
       border: 3px solid #dcaa26;
-      position: absolute;
-      left: 50%;
-      top: 50%;
+    position: absolute;
+     left: 50%;
+     top: 50%;
       //background-color: #0e1121;
         background-color: #fff;
       border-radius: 50%;
@@ -77,8 +85,36 @@
       img{
           width:36px;
       }
+    }*/
+
+    position: absolute;
+    bottom: -36px;
+    z-index: 100;
+    svg{
+        transform: translateY(15px);
     }
-}
+        .hero-play-btn {
+            margin: 0 auto;
+            width: 78px;
+            height: 78px;
+            border: 3px solid #dcaa26;
+            left: 50%;
+            top: 50%;
+            background-color: #fff;
+            border-radius: 50%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            z-index: 10;
+        }  
+    }
+
 
 
 .hero-triagle-block{
