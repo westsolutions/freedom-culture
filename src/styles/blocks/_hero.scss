@@ -1,106 +1,107 @@
-.hero{
-    height:584px;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: cover;
-    color:#fff;
-    padding-top:30px;
-    border-bottom:3px solid $secondary-color;
+.hero {
+  height: 584px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  color: #fff;
+  padding-top: 30px;
+  border-bottom: 3px solid $secondary-color;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  .menu-button {
+    position: absolute;
+    top: 0;
+    padding-top: 30px;
+  }
+  .logo-img {
+    max-width: 112px;
+    display: block;
+  }
+}
+
+.hero-text-content {
+  .hero-title {
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 930px;
+    margin: 0 auto;
+    @include media-breakpoint-down(sm) {
+      font-size: 28px;
+    }
+  }
+  color: #ffffff;
+  font-family: $font-family-primary;
+  text-align: center;
+  padding-top: 30px;
+  .hero-title-text {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: $font-family-primary;
+    font-weight: 400;
+  }
+}
+
+.play-btn-block {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.hero-play {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  z-index: 100;
+  .button-label {
+    transform: translate(0, 50%);;
+  }
+  .hero-play-btn {
+    margin: 0 auto;
+    width: 78px;
+    height: 78px;
+    border: 3px solid $secondary-color;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-      .menu-button{
-          position: absolute;
-          top:0;
-          padding-top: 30px;
-      }
-    .logo-img{
-      max-width: 112px;
-      display: block;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 10;
+    &:hover {
+      color: $secondary-color;
     }
   }
-  
-  .hero-text-content{
-      .hero-title{
-          text-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
-          font-size: 40px;
-          text-transform: uppercase;
-          font-weight: 700;
-          max-width:930px;
-          margin:0 auto;
-          @include media-breakpoint-down(sm) {
-              font-size:28px;
-          }
-      }
-    color:#ffffff;
-    font-family: $font-family-primary;
-    text-align: center;
-    padding-top:30px;
-    .hero-title-text{
-      color: #ffffff;
-      font-size: 20px;
-      font-family: $font-family-primary;
-      font-weight: 400;
-    }
-  }
-  
-  .play-btn-block{
-      position: relative;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-        -ms-flex-pack: center;
-      justify-content: center;
-      position: relative;
-      width: 100%;
-  }
-  
-  .hero-play {
-      position: absolute;
-      bottom: -36px;
-      z-index: 100;
-      svg{
-          -webkit-transform: translateY(15px);
-              -ms-transform: translateY(15px);
-                  transform: translateY(15px);
-      }
-      .hero-play-btn {
-          margin: 0 auto;
-          width: 78px;
-          height: 78px;
-          border: 3px solid #dcaa26;
-          background-color: #fff;
-          border-radius: 50%;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
-          z-index: 10;
-          img{
-              display: block;
-          }
-      }  
-  }
-  
-.arrow-window{
-    position: fixed;
-    color: #fff !important;
-    font-size: 24px;
-    z-index: 100;
-    right: 36px;
-    bottom:144px;
-    cursor: pointer;
+}
+
+.scroll-to-top {
+  position: fixed;
+  color: #fff;
+  font-size: 24px;
+  z-index: 100;
+  right: 1rem;
+  bottom: 1rem;
+  cursor: pointer;
 }

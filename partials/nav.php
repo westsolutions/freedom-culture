@@ -32,6 +32,3 @@
             </ul> 
     </div>
 </nav>
-<a class="arrow-window" href="#window-top">
-    <i class="fas fa-arrow-up"></i>
-</a>
