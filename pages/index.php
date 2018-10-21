@@ -1,10 +1,10 @@
 <?php partial('head') ?>
 
-<body>
+<body id="window-top">
   <?php partial('nav') ?>
 
   <!-- hero -->
-  <section class="hero" style="background-image: url('<?= asset('images/hero-bg.png') ?>')">
+  <section class="hero" style="background-image:linear-gradient(to top, rgba(0, 0, 0, 0), #0e1121) , url('<?= asset('images/hero-bg.png') ?>')">
     <div class="container">
         <div class="d-flex justify-content-end">
             <div class="menu-button js--toggle-menu">
