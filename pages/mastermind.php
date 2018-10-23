@@ -1,6 +1,7 @@
 <?php partial('head') ?>
 
 <body id="window-top">
+<?php partial('tag-manager') ?>
 <?php partial('nav') ?>
 
 <!-- hero -->
@@ -23,14 +24,11 @@
             <div class="hero-text-content">
                 <h1 class="hero-title">
                     <small>
-                        Please Do Not Share:
+                        We are building a powerful tribe via a
                     </small>
                     <br>
-                    <span class="text-uppercase">
-                        This is a private invitation specifically for you
-                    </span>
+                    <span class="text-uppercase">private mastermind</span>
                 </h1>
-
             </div>
         </div>
     </div>
@@ -38,7 +36,7 @@
         <svg class="button-label" width="134" height="51">
             <use xlink:href="#watch-online"></use>
         </svg>
-        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="hero-play-btn js--play-video">
+        <a href="http://www.youtube.com/watch?v=NCDv-oHymUg" class="hero-play-btn js--play-video">
             <svg width="36" height="36">
                 <use xlink:href="#play"></use>
             </svg>
@@ -58,13 +56,13 @@
                     <mark>2019</mark>
                 </h2>
             </div>
-            <div class="content-banner-data-block ">
+            <div class="content-banner-data-block">
                 <p>
                     February 23 – March 3
                 </p>
             </div>
-            <div class="banner-logo-block">
-                <div class="banner-logo-text text-uppercase">
+            <div class="banner-logo-block text-uppercase">
+                <div class="banner-logo-text">
                     <p>
                         Powered by:
                     </p>
@@ -82,51 +80,7 @@
     </div>
 </section>
 <!--content-baner-->
-<!--.video-->
-<section class="video">
-    <div class="container-fluid p-0">
-        <div class="row no-gutters">
-            <div class="col-12 col-md-6">
-                <div class="video-block video-bg-gr-primary">
-                    <div class="video-block-content">
-                        <div class="video-block-title">
-                            <h3>
-                                About the
-                                <mark>Event</mark>
-                            </h3>
-                        </div>
-                        <div class="video-content">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hN_q-_nGv4U"
-                                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6">
-                <div class="video-block video-bg-primary">
-                    <div class="video-block-content">
-                        <div class="video-block-title">
-                            <h3>
-                                Sponsorship
-                                <mark>Opportunities</mark>
-                            </h3>
-                        </div>
-                        <div class="video-content">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hN_q-_nGv4U"
-                                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--video-->
-<section class="event-detail">
-    <a href="#" class="event-detail-content">
-        Event
-        <mark>Details <i class="fas fa-arrow-right"></i></mark>
-    </a>
+<section class="content-img-section" style="background:url('<?= asset('images/content-img.png') ?>')">
 </section>
 <!-- ask-network-content -->
 <section class="ask-network-content">
@@ -148,7 +102,6 @@
             </div>
         </div>
         <div class="social-network-content">
-            <h3>Join the movement</h3>
             <div class="d-flex justify-content-center">
                 <ul class="d-flex social-network-icons">
                     <li>
@@ -191,37 +144,7 @@
     </div>
 </section>
 <!-- ask-network-content -->
-
-<footer class="main-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="footer-text-left text-lg-left text-center">
-                    <strong>&copy; 2018 Freedom Culture</strong>
-                    <a href="mailto:info@freedomculture.com" class="line-left">
-                        info&#64;freedomculture.com
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="footer-text-right">
-                    <ul class="d-flex justify-content-lg-end justify-content-center m-0 p-0">
-                        <li>
-                            <a href="#">
-                                Terms &amp; Conditions
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="line-left">
-                                Privacy Policy
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+<?php partial('footer'); ?>
 
 <?php partial('svg'); ?>
 <?php partial('scroll-to-top'); ?>

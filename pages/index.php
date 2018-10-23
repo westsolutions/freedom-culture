@@ -1,6 +1,7 @@
 <?php partial('head') ?>
 
 <body id="window-top">
+<?php partial('tag-manager') ?>
 <?php partial('nav') ?>
 
 <!-- hero -->
@@ -37,7 +38,7 @@
         <svg class="button-label" width="134" height="51">
             <use xlink:href="#watch-online"></use>
         </svg>
-        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="hero-play-btn js--play-video">
+        <a href="http://www.youtube.com/watch?v=NCDv-oHymUg" class="hero-play-btn js--play-video">
             <svg width="36" height="36">
                 <use xlink:href="#play"></use>
             </svg>
@@ -76,7 +77,7 @@
 <!-- content-icon -->
 <section class="content-icons">
     <div class="container">
-        <h2>Our Core Values</h2>
+        <h2>WHAT WE STAND FOR</h2>
         <div class="row">
             <div class="col-lg-3 col-md-6 p-0">
                 <div class="icon-block">
@@ -114,7 +115,7 @@
                         <img src="<?= asset('images/self-reliance.svg') ?>" alt="" width="100%">
                     </div>
                     <h4>
-                        Self<br>reliance
+                        Regenerative<br/>Solutions
                     </h4>
                 </div>
             </div>
@@ -129,47 +130,46 @@
             <div class="col-lg-6 order-lg-1 order-2">
                 <div class="item-text bg-block-primary">
                     <div class="text-left-block">
-                        <h2><span>We</span> Create Media</h2>
+                      <h2><span>We</span> Unite Influencers</h2>
+
                         <div class="text-content">
+
                             <p>
-                                We support creatives to make engaging content that changes the narrative on social media
-                                to being constructive and thought-provoking.
+                                Through the curation of invite only mastermind experiences, to the development of decentralized tools for the use of the greater community, we create powerful experiences for our tribe to connect, rally and build trust both physically and digitally.
                             </p>
                         </div>
-                        <a href="#" class="btn btn-outline-primary">
-                            Hire our crew
+                        <a href="/mastermind" class="btn btn-outline-primary">
+                            Explore Our Mastermind
                         </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 order-lg-2 order-1">
                 <div class="d-lg-block d-none item-img"
-                     style="background-image:linear-gradient(to right, #747a9d 0%,  #747a9d 25%,transparent 25%, transparent 100%) , url(<?= asset('images/media.png') ?>)">
+                     style="background-image:linear-gradient(to right, #747a9d 0%,  #747a9d 25%,transparent 25%, transparent 100%) , url(<?= asset('images/community.png') ?>)">
                 </div>
-                <div class="d-lg-none d-block item-img" style="background-image:url(<?= asset('images/media.png') ?>)">
+                <div class="d-lg-none d-block item-img" style="background-image:url(<?= asset('images/community.png') ?>)">
                 </div>
             </div>
             <div class="col-lg-6 order-lg-3 order-3">
                 <div class="d-lg-block d-none item-img"
-                     style="background-image:linear-gradient(to left, #DCAA26 0%, #DCAA26 18%,transparent 18%, transparent 100%), url(<?= asset('images/community.png') ?>)">
+                     style="background-image:linear-gradient(to left, #DCAA26 0%, #DCAA26 18%,transparent 18%, transparent 100%), url(<?= asset('images/media.jpg') ?>)">
                 </div>
                 <div class="d-lg-none d-block item-img"
-                     style="background-image: url(<?= asset('images/community.png') ?>)">
+                     style="background-image: url(<?= asset('images/media.jpg') ?>)">
                 </div>
             </div>
             <div class="col-lg-6 order-lg-4 order-4">
                 <div class="item-text bg-block-secondary border-secondary-1">
                     <div class="text-right-block">
-                        <h2><span>We</span> Unite Influencers</h2>
+                        <h2><span>We</span> Tell Stories</h2>
                         <div class="text-content">
-                            <p>
-                                We realize the dynamics of the media landscape have shifted the power from one which
-                                people are informed and so we assemble powerful networks to change the cultural
-                                narrative of our world.
-                            </p>
+                          <p>
+                              By leveraging the presence of powerful influencers at our gatherings, we support creatives to tell engaging stories that shift the narrative on social media to be more constructive and thought-provoking as well as providing a decentralized distribution network as a catalyst for shifting culture.
+                          </p>
                         </div>
-                        <a href="#" class="btn btn-outline-secondary">
-                            Join our crew
+                        <a href="http://bit.ly/FCStorytellers " class="btn btn-outline-secondary">
+                          Hire Our Crew
                         </a>
                     </div>
                 </div>
@@ -180,12 +180,10 @@
                         <h2><span>We</span> Empower Educators</h2>
                         <div class="text-content">
                             <p>
-                                We are committed to spreading wisdomaround decentralized solutions by buildinga powerful
-                                mentorship platform availableboth online and off as well as gatherings that promote
-                                community, growth and self-reliance.
+                                We are committed to spreading the deeper wisdom of our tribe by supporting the launches of online courses and in person mentorships to financially support our individual projects within a collective container.
                             </p>
                         </div>
-                        <a href="#" class="btn btn-outline-primary">
+                        <a href="http://bit.ly/FCBecomeATeacher" class="btn btn-outline-primary">
                             Learn More
                         </a>
                     </div>
@@ -193,18 +191,18 @@
             </div>
             <div class="col-lg-6 order-lg-6 order-5">
                 <div class="d-lg-block d-none item-img"
-                     style="background-image:linear-gradient(to right, #747a9d 0%,  #747a9d 8%,transparent 8%, transparent 100%) , url(<?= asset('images/teaching.png') ?>)">
+                     style="background-image:linear-gradient(to right, #747a9d 0%,  #747a9d 8%,transparent 8%, transparent 100%) , url(<?= asset('images/teaching.jpg') ?>)">
                 </div>
                 <div class="d-lg-none d-block item-img"
-                     style="background-image: url(<?= asset('images/teaching.png') ?>)">
+                     style="background-image: url(<?= asset('images/teaching.jpg') ?>)">
                 </div>
             </div>
             <div class="col-lg-6 order-lg-7 order-7">
                 <div class="d-lg-block d-none item-img bg-right"
-                     style="background-image:linear-gradient(to left, #DCAA26 0%, #DCAA26 6%,transparent 6%, transparent 100%), url(<?= asset('images/incubator.png') ?>)">
+                     style="background-image:linear-gradient(to left, #DCAA26 0%, #DCAA26 6%,transparent 6%, transparent 100%), url(<?= asset('images/incubator.jpg') ?>)">
                 </div>
                 <div class="d-lg-none d-block item-img bg-right"
-                     style="background-image:url(<?= asset('images/incubator.png') ?>)">
+                     style="background-image:url(<?= asset('images/incubator.jpg') ?>)">
                 </div>
             </div>
             <div class="col-lg-6 order-lg-8 order-8">
@@ -213,13 +211,11 @@
                         <h2><span>We</span> Incubate Ideas</h2>
                         <div class="text-content">
                             <p>
-                                We fund, mentor and support entrepreneurs who align the ROI of Return on Investment with
-                                the other ROI - Ripple of Impact that focuses on decentralized solutions for
-                                structuralflourishing.
+                                We fund, mentor and support philanthropreneurs & their teams that align the ROI of Return on Investment with the other ROI - Ripple of Impact. We have carefully crafted a streamlined incubator process that focuses on launching collaborative projects for structural flourishing.
                             </p>
                         </div>
-                        <a href="#" class="btn btn-outline-secondary">
-                            Learn more
+                        <a href="http://bit.ly/FCIncubator" class="btn btn-outline-secondary">
+                            Share Your Idea
                         </a>
                     </div>
                 </div>
@@ -284,38 +280,7 @@
     </div>
 </section>
 <!-- ask-network-content -->
-
-<footer class="main-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="footer-text-left text-lg-left text-center">
-                    <strong>&copy; 2018 Freedom Culture</strong>
-                    <a href="mailto:info@freedomculture.com" class="line-left">
-                        info&#64;freedomculture.com
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="footer-text-right">
-                    <ul class="d-flex justify-content-lg-end justify-content-center m-0 p-0">
-                        <li>
-                            <a href="#">
-                                Terms &amp; Conditions
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="line-left">
-                                Privacy Policy
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
+<?php partial('footer'); ?>
 <?php partial('svg'); ?>
 <?php partial('scroll-to-top'); ?>
 <script src="<?= asset('scripts/main.js') ?>"></script>

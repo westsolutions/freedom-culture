@@ -1,6 +1,7 @@
 <?php partial('head') ?>
 
 <body id="window-top">
+<?php partial('tag-manager') ?>
 <?php partial('nav') ?>
 
 <!-- hero -->
@@ -23,11 +24,14 @@
             <div class="hero-text-content">
                 <h1 class="hero-title">
                     <small>
-                        We are building a powerful tribe via a
+                        Please Do Not Share:
                     </small>
                     <br>
-                    <span class="text-uppercase">private mastermind</span>
+                    <span class="text-uppercase">
+                        This is a private invitation specifically for you
+                    </span>
                 </h1>
+
             </div>
         </div>
     </div>
@@ -35,7 +39,7 @@
         <svg class="button-label" width="134" height="51">
             <use xlink:href="#watch-online"></use>
         </svg>
-        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="hero-play-btn js--play-video">
+        <a href="https://marc-coppola.wistia.com/medias/9enahuyqbw" class="hero-play-btn js--play-video">
             <svg width="36" height="36">
                 <use xlink:href="#play"></use>
             </svg>
@@ -55,13 +59,13 @@
                     <mark>2019</mark>
                 </h2>
             </div>
-            <div class="content-banner-data-block">
+            <div class="content-banner-data-block ">
                 <p>
                     February 23 – March 3
                 </p>
             </div>
-            <div class="banner-logo-block text-uppercase">
-                <div class="banner-logo-text">
+            <div class="banner-logo-block">
+                <div class="banner-logo-text text-uppercase">
                     <p>
                         Powered by:
                     </p>
@@ -79,7 +83,50 @@
     </div>
 </section>
 <!--content-baner-->
-<section class="content-img-section" style="background:url('<?= asset('images/content-img.png') ?>')">
+<!--.video-->
+<section class="video">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12 col-md-6">
+                <div class="video-block video-bg-gr-primary">
+                    <div class="video-block-content">
+                        <div class="video-block-title">
+                            <h3>
+                                About the
+                                <mark>Event</mark>
+                            </h3>
+                        </div>
+                        <div class="video-content">
+                            <script src="https://fast.wistia.com/embed/medias/zdrhs8po3h.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_zdrhs8po3h videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/zdrhs8po3h/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="video-block video-bg-primary">
+                    <div class="video-block-content">
+                        <div class="video-block-title">
+                            <h3>
+                                Sponsorship
+                                <mark>Opportunities</mark>
+                            </h3>
+                        </div>
+                        <div class="video-content">
+                          <script src="https://fast.wistia.com/embed/medias/qnp86u1ozo.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_qnp86u1ozo videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/qnp86u1ozo/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--video-->
+<section class="event-detail">
+    <a href="http://bit.ly/FreedomCultureCR" class="event-detail-content">
+        Event
+        <mark>Details <i class="fas fa-arrow-right"></i></mark>
+    </a>
 </section>
 <!-- ask-network-content -->
 <section class="ask-network-content">
@@ -101,6 +148,7 @@
             </div>
         </div>
         <div class="social-network-content">
+            <h3>Join the movement</h3>
             <div class="d-flex justify-content-center">
                 <ul class="d-flex social-network-icons">
                     <li>
@@ -143,6 +191,7 @@
     </div>
 </section>
 <!-- ask-network-content -->
+
 <footer class="main-footer">
     <div class="container">
         <div class="row">
