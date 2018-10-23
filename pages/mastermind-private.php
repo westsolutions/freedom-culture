@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="banner-btn-content">
-                <a href="#" class="btn btn-secondary">
+                <a href="http://bit.ly/FCMastermindApplication" class="btn btn-secondary">
                     Apply To Join Our Next Mastermind
                 </a>
             </div>
@@ -142,7 +142,7 @@
     <div class="container">
         <div class="d-flex justify-content-center">
             <div class="ask-network-block-btn">
-                <a href="#" class="btn btn-outline-primary">
+                <a href="http://bit.ly/FCMastermindApplication" class="btn btn-outline-primary">
                     Apply To Join Our Next Mastermind
                 </a>
             </div>
@@ -150,37 +150,7 @@
         <div class="social-network-content">
             <h3>Join the movement</h3>
             <div class="d-flex justify-content-center">
-                <ul class="d-flex social-network-icons">
-                    <li>
-                        <a href="#" class="social-network-block">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-network-block">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    <li>
-                        <a href="#" class="social-network-block">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-network-block">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-network-block">
-                            <i class="fab fa-telegram-plane"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-network-block">
-                            <i class="fab fa-medium-m"></i>
-                        </a>
-                    </li>
-                </ul>
+                <?php partial('social'); ?>
             </div>
         </div>
         <div class="logo-buttom">
@@ -191,37 +161,8 @@
     </div>
 </section>
 <!-- ask-network-content -->
+<?php partial('footer'); ?>
 
-<footer class="main-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="footer-text-left text-lg-left text-center">
-                    <strong>&copy; 2018 Freedom Culture</strong>
-                    <a href="mailto:info@freedomculture.com" class="line-left">
-                        info&#64;freedomculture.com
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="footer-text-right">
-                    <ul class="d-flex justify-content-lg-end justify-content-center m-0 p-0">
-                        <li>
-                            <a href="#">
-                                Terms &amp; Conditions
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="line-left">
-                                Privacy Policy
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
 
 <?php partial('svg'); ?>
 <?php partial('scroll-to-top'); ?>

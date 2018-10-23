@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="banner-btn-content">
-                <a href="#" class="btn btn-secondary">
+                <a href="http://bit.ly/FCMastermindApplication" class="btn btn-secondary">
                     Apply To Join Our Next Mastermind
                 </a>
             </div>
@@ -96,44 +96,14 @@
     <div class="container">
         <div class="d-flex justify-content-center">
             <div class="ask-network-block-btn">
-                <a href="#" class="btn btn-outline-primary">
+                <a href="http://bit.ly/FCMastermindApplication" class="btn btn-outline-primary">
                     Apply To Join Our Next Mastermind
                 </a>
             </div>
         </div>
         <div class="social-network-content">
             <div class="d-flex justify-content-center">
-                <ul class="d-flex social-network-icons">
-                    <li>
-                        <a href="#" class="social-network-block">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-network-block">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    <li>
-                        <a href="#" class="social-network-block">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-network-block">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-network-block">
-                            <i class="fab fa-telegram-plane"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-network-block">
-                            <i class="fab fa-medium-m"></i>
-                        </a>
-                    </li>
-                </ul>
+                <?php partial('social'); ?>
             </div>
         </div>
         <div class="logo-buttom">
