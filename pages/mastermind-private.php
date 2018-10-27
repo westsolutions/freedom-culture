@@ -39,7 +39,7 @@
         <svg class="button-label" width="134" height="51">
             <use xlink:href="#watch-online"></use>
         </svg>
-        <a href="https://marc-coppola.wistia.com/medias/9enahuyqbw" class="hero-play-btn js--play-video">
+        <a href="http://fast.wistia.com/embed/iframe/9enahuyqbw?version=v1&controlsVisibleOnLoad=true&playerColor=aae3d8" class="hero-play-btn js--play-video">
             <svg width="36" height="36">
                 <use xlink:href="#play"></use>
             </svg>
