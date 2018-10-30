@@ -12,9 +12,11 @@
   <meta charset="utf-8">
 
   <title>Freedom Cultrue</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <meta name="description" content="To Empower and Encourage All Individuals To Spread Their Unique Gifts To The World">
+  <meta name="author" content="Freedom Culture">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:image" content="<?= asset('images/og-logo-freedom-culture.jpg') ?>">
+  <link rel="icon" href="<?= asset('images/favicon.png') ?>" sizes="16x16" type="image/png">
 
   <link rel="stylesheet" href="<?= asset('styles/main.css') ?>">
 

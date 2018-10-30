@@ -75,8 +75,8 @@
                 </div>
             </div>
             <div class="banner-btn-content">
-                <a href="http://bit.ly/FCMastermindApplication" class="btn btn-secondary">
-                    Apply To Join Our Next Mastermind
+                <a href="http://bit.ly/FreedomCultureCR" class="btn btn-secondary">
+                    RSVP To Our Next Mastermind
                 </a>
             </div>
         </div>
@@ -142,8 +142,8 @@
     <div class="container">
         <div class="d-flex justify-content-center">
             <div class="ask-network-block-btn">
-                <a href="http://bit.ly/FCMastermindApplication" class="btn btn-outline-primary">
-                    Apply To Join Our Next Mastermind
+                <a href="http://bit.ly/FreedomCultureCR" class="btn btn-outline-primary">
+                    RSVP To Our Next Mastermind
                 </a>
             </div>
         </div>
