@@ -11,7 +11,7 @@
   <!-- End Google Tag Manager -->
   <meta charset="utf-8">
 
-  <title>Freedom Cultrue</title>
+  <title>Freedom Culture</title>
   <meta name="description" content="To Empower and Encourage All Individuals To Spread Their Unique Gifts To The World">
   <meta name="author" content="Freedom Culture">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
