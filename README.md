@@ -1,4 +1,4 @@
-# Barebones
+# Barebone
 Barebones starter template for static site integrations.
 
 ## Requirements
