@@ -4,6 +4,11 @@
     background-size: cover !important;
     background-blend-mode: multiply;
     height: 493px;
+    &.mastermind {
+      @include media-breakpoint-down(sm) {
+        height: 793px;
+      }
+    }
     .content-banner-wrapper{
         display: -webkit-box;
         display: -ms-flexbox;
@@ -19,6 +24,25 @@
             -ms-flex-pack: center;
                 justify-content: center;
         height: 493px;
+        &.mastermind {
+          @include media-breakpoint-up(md) {
+            -webkit-box-align: center;
+            -ms-flex-align: unset;
+            align-items: baseline;
+            -webkit-box-pack: unset;
+            -ms-flex-pack: unset;
+          }
+        }
+        &:nth-of-type(1) {
+          @include media-breakpoint-up(lg) {
+            padding-right: 30px;
+          }
+        }
+        &:nth-of-type(2) {
+          @include media-breakpoint-down(sm) {
+            height: 300px;
+          }
+        }
     }
 }
 
@@ -33,6 +57,16 @@
             background-color: transparent;
             color:$secondary-color;
         }
+        .mastermind & {
+          text-align: center;
+          @include media-breakpoint-up(md) {
+            text-align: right;
+            margin: 0 0 0 auto;
+          }
+       }
+       @media screen and (min-width: 768px) and (max-width: 991px) {
+         font-size: 23px;
+       }
     }
 }
 
@@ -43,6 +77,12 @@
     font-size: 24px;
     line-height: 1;
     color: #ffffff;
+    .mastermind & {
+      @include media-breakpoint-up(md) {
+        text-align: right;
+        margin: 0 0 0 auto;
+      }
+    }
 }
 
 .banner-logo-block{
@@ -51,6 +91,12 @@
     font-weight: 700;
     text-align: center;
     color: $secondary-color;
+    .mastermind & {
+      @include media-breakpoint-up(md) {
+        text-align: right;
+        margin: 0 0 0 auto;
+      }
+    }
 }
 
 .banner-logo{
@@ -59,6 +105,11 @@
         display: block;
         margin:0 auto;
     }
+    .mastermind & {
+      @include media-breakpoint-up(md) {
+        margin: 0 0 0 auto;
+      }
+    }
 }
 
 .banner-btn-content{
@@ -66,15 +117,27 @@
     .btn-secondary{
         background-color: $secondary-color;
         border:none;
-        padding:15px 31px;
+        padding: 15px 10px;
         text-transform: uppercase;
         &:hover{
             color:$primary-color;
         }
+        @include media-breakpoint-up(lg) {
+          padding:15px 31px;
+        }
         @media screen and (max-width:568px){
             padding:15px 12px;
             font-size: 12px;
-
         }
+    }
+    .mastermind & {
+      @include media-breakpoint-up(md) {
+        margin: 0 0 0 auto;
+        right: 30px;
+        position: relative;
+      }
+      @include media-breakpoint-up(lg) {
+        right: 0;
+      }
     }
 }

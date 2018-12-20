@@ -38,11 +38,28 @@
         <svg class="button-label" width="134" height="51">
             <use xlink:href="#watch-online"></use>
         </svg>
-        <a href="http://www.youtube.com/watch?v=NCDv-oHymUg" class="hero-play-btn js--play-video">
+
+        <script src="https://fast.wistia.com/embed/medias/6tzfwyk5hd.jsonp" async></script>
+        <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+        <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;cursor:pointer;">
+          <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+            <div class="wistia_embed popover=true popoverContent=html wistia_async_6tzfwyk5hd videoFoam=true" style="height:100%;position:relative;width:100%">
+              <div class="wistia_swatch" style="height:100%;left:0;opacity:1;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                <span class="hero-play-btn" style="height:75px; width:75px;">
+                  <svg width="36" height="36">
+                      <use xlink:href="#play"></use>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <a href="#" class="hero-play-btn js--play-video">
             <svg width="36" height="36">
                 <use xlink:href="#play"></use>
             </svg>
-        </a>
+        </a> -->
     </div>
 </section>
 <!-- hero -->
@@ -130,8 +147,7 @@
             <div class="col-lg-6 order-lg-1 order-2">
                 <div class="item-text bg-block-primary">
                     <div class="text-left-block">
-                      <h2><span>We</span> Unite Influencers</h2>
-
+                        <h2><span>We</span> Unite Influencers</h2>
                         <div class="text-content">
 
                             <p>
