@@ -78,8 +78,7 @@
                 <h2 class="">
                     Costa Rica
                     <mark>&amp;</mark>
-                    Envision Festival
-                    <mark>2019</mark>
+                    Envision Festival&nbsp;<mark>2019</mark>
                 </h2>
             </div>
             <div class="content-banner-data-block ">

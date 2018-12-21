@@ -11669,7 +11669,7 @@ body.disabled-scrolling {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .content-banner-title h2 {
     font-size: 23px;
   }
