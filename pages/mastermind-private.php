@@ -175,7 +175,7 @@
 
                             </p> -->
                         </div>
-                        <a href="https://envisionfestival.lpages.co/freedom-culture-theme-camp/" target="_blank" class="btn btn-outline-primary">
+                        <a href="https://envisionfestival.com/freedom-culture-theme-camp" target="_blank" class="btn btn-outline-primary">
                             RSVP Tickets
                         </a>
                     </div>
