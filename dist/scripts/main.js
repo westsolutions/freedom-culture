@@ -10455,19 +10455,35 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_magnific_popup_dist_jquery_magnific_popup_min__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_magnific_popup_dist_jquery_magnific_popup_min___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_magnific_popup_dist_jquery_magnific_popup_min__);
 
+
+
+
 window.$ = window.jQuery = __WEBPACK_IMPORTED_MODULE_0_jquery___default.a;
 
-
-
 __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).ready(function () {
-  __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.js--toggle-menu').click(function () {
-    __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.js--nav').fadeToggle('fast');
-    __WEBPACK_IMPORTED_MODULE_0_jquery___default()('body').toggleClass('disabled-scrolling');
-  });
+    __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.js--toggle-menu').click(function () {
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.js--nav').fadeToggle('fast');
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()('body').toggleClass('disabled-scrolling');
+    });
 
-  __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.js--play-video').magnificPopup({
-    type: 'iframe'
-  });
+    __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.js--play-video').magnificPopup({
+        type: 'iframe'
+    });
+
+    __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.js--scroll-to-top').click(function () {
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()('html, body').animate({
+            scrollTop: 0
+        }, 1000);
+    });
+});
+
+__WEBPACK_IMPORTED_MODULE_0_jquery___default()(window).scroll(function () {
+    var scrollY = (window.pageYOffset || document.documentElement.scrollTop) - (document.documentElement.clientTop || 0);
+    if (scrollY < 100) {
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.js--scroll-to-top').fadeOut();
+    } else {
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.js--scroll-to-top').fadeIn();
+    }
 });
 
 /***/ }),

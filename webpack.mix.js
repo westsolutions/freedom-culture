@@ -36,7 +36,7 @@ mix.webpackConfig({
  |
  */
 
-mix.browserSync('freedom.local');
+mix.browserSync('http://freedom-culture.test');
 
 mix.js('src/scripts/main.js', 'dist/scripts/')
    .sass('src/styles/main.scss', 'dist/styles/')

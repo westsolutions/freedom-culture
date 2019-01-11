@@ -17,7 +17,7 @@
 }
 
 .social-network-content{
-    padding-top:28px;
+    padding-top:38px;
     h3{
         font-size: 20px;
         font-weight: 700;
@@ -63,4 +63,17 @@
     img{
         max-width:216px; 
     }
+}
+
+.ask-network-block-btn{
+    padding-top:31px;
+    .btn{
+        padding: 15px 31px;
+        text-transform: uppercase;
+        @media screen and (max-width:568px){
+            padding:15px 12px;
+            font-size: 12px;
+        }
+    }
+    
 }
